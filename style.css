@@ -1,61 +1,54 @@
-@import 
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 * {
-    background: #e5e5e5;
+    background-color: #f3f5fc;
+    margin: 10px;
     font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
 }
 
-.logoalura {
-    margin-left: 10px;
-    margin-top: 10px;
-    width: ;
+body {
+    box-sizing: border-box;
 }
 
-.main {
+header {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+main {
     display: flex;
-    margin-top: 50px;
-    margin-left: 80px;
 }
 
-.text-area {
+.digitar-texto {
+    padding: 2% 10%;
+}
+
+.area-texto {
+    height: 250%;
+    width: 100%;
     border: none;
+    font-size: 25px;
     color: #0a3871;
-    margin-top: 90px;
-    text-transform: lowercase;
 }
 
-::placeholder { color: #0a3871;}
-    .text-area:focus {
-        outline: none;
-    }
-
-.mensagem {
-    background: white;
-    background-image: url(assets/boneca.png);
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 24px;
-    color: #0a3871;
-    margin-left: 98px;
-    margin-top: 20px;
-    padding-left: 20px;
-    position: ;
-}
-.mensagem:focus {
-    outline: none;
+.informacao {
+    color: #495057;
 }
 
 .botoes {
-    display: flex;
-    margin-top: 18px;
+    flex-direction: ;
 }
 
 .btn-encriptar {
-    background: #0a3871;
-    font-family: "Inter", sans-serif;
-    color: white;
-    ;
+    border-radius: 25%;
+    padding: 2% 10%;
+    background-color: #0a3871;
+    color: #f3f5fc;
+}
+
+.btn-desencriptar {
+    border-radius: 25%;
+    padding: 2% 10%;
+    background-color: #D8DFE8;
+    color: #0a3871;
 }
